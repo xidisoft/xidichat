@@ -1,3 +1,5 @@
+![XIDICHAT](static/logo.png)
+
 <h1 class="title">私有化部署即时通讯系统 告别第三方IM</h1>
                 <hr>
                 <p>XidiChat 是一款支持
