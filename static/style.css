@@ -1,0 +1,142 @@
+.flex {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.flex-center {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.flex-col-center {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.flex-1 {
+	flex: 1;
+}
+
+.p20 {
+	padding: 20upx;
+}
+
+.pt20 {
+	padding-top: 20upx;
+}
+
+.pb20 {
+	padding-bottom: 20upx;
+}
+
+.pl20 {
+	padding-left: 20upx;
+}
+
+.pr20 {
+	padding-right: 20upx;
+}
+
+.p10 {
+	padding: 10upx;
+}
+
+.m10 {
+	margin: 10upx;
+}
+
+.m20 {
+	margin: 20upx;
+}
+
+.mb10 {
+	margin-bottom: 10upx;
+}
+
+.mt20 {
+	margin-top: 20upx;
+}
+
+.mb20 {
+	margin-bottom: 20upx;
+}
+
+.ml20 {
+	margin-left: 20upx;
+}
+
+.mr20 {
+	margin-right: 20upx;
+}
+
+.border {
+	border: solid 2upx #f3f3f3;
+}
+
+.border-b {
+	border-bottom: solid 2upx #f3f3f3;
+}
+
+.shadow {
+	box-shadow: 0 0 12upx 2upx #f3f3f3;
+}
+
+.white-bg {
+	background: #fff;
+}
+
+.grey-bg {
+	background: #f3f3f3;
+}
+
+.white-color {
+	color: #fff;
+}
+
+.main-color {
+	color: #333;
+}
+
+.tips-color {
+	color: #999;
+}
+
+.radius-10 {
+	border-radius: 10upx;
+}
+
+.relative {
+	position: relative;
+}
+
+.absolute {
+	position: absolute;
+}
+
+.text-right {
+	text-align: right;
+}
+
+.text-center {
+	text-align: center;
+}
+.md-font{
+	font-size: 30upx;
+}
+
+.xs-font {
+	font-size: 22upx;
+}
+
+.lg-font {
+	font-size: 40upx;
+}
+
+.ellipsis {
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}

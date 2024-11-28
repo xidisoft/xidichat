@@ -1,0 +1,144 @@
+{
+	"easycom": {
+		"^u-(.*)": "uview-ui/components/u-$1/u-$1.vue"
+	},
+	"pages": [{
+			"path": "pages/index/index",
+			"needLogin": true,
+			"style": {
+				"app-plus": {
+					"titleNView": {
+						"backgroundColor": "#f8f8f8",
+						"buttons": [{
+							"text": "码猿",
+							"float": "left",
+							"fontSize": "14px",
+							"fontWeight": "bold",
+							"color": "#00aa00",
+							"width":"60px"
+						}],
+						"searchInput": {
+							"align": "left",
+							"placeholder": "输入关键字",
+							"borderRadius": "30px",
+							"placeholderColor": "#999",
+							"backgroundColor": "#eee"
+						}
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/auth/login",
+			"style": {
+				"navigationBarTitleText": "登录"
+			}
+		},
+		{
+			"path": "pages/chat/index",
+			"style": {
+				"navigationBarTitleText": "消息列表"
+			}
+		},
+		{
+			"path": "pages/chat/detail",
+			"style": {
+				"navigationBarTitleText": "聊天中",
+				"enablePullDownRefresh": true
+				// "navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/user/index",
+			"style": {
+				"navigationBarTitleText": "",
+				"navigationBarBackgroundColor": "#00aa00"
+
+			}
+		},
+		{
+			"path": "pages/chat/test",
+			"style": {
+				"navigationBarTitleText": "测试",
+				"app-plus": {
+					"bounce": "none",
+					"titleNView": {
+						"buttons": [{
+							"text": "更多",
+							"fontSize": "15px"
+						}]
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/auth/register",
+			"style": {
+				"navigationBarTitleText": "注册"
+			}
+		},
+		{
+			"path": "pages/test/index",
+			"style": {
+				"navigationBarTitleText": "测试"
+			}
+		},
+		{
+			"path": "pages/user/profile",
+			"style": {
+				"navigationBarTitleText": "用户资料"
+			}
+		},
+		{
+			"path": "pages/index/detail",
+			"style": {
+				"navigationBarTitleText": "码猿档案",
+				"app-plus": {
+					"titleNView": {
+						"backgroundColor": "#00aa00"
+					}
+				}
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "我是程序猿",
+		"navigationBarBackgroundColor": "#f8f8f8",
+		"backgroundColor": "#f8f8f8",
+
+		"h5": {
+			"titleNView": false
+		},
+		"app-plus": {
+			"scrollIndicator": "none",
+			"bounce": "none"
+		}
+	},
+	"tabBar": {
+		"backgroundColor": "#f8f8f8",
+		"borderStyle": "white",
+		"color": "#888888",
+		"selectedColor": "#00aa00",
+		"list": [{
+				"text": "码猿",
+				"pagePath": "pages/index/index",
+				"iconPath": "static/icons/programmer.png",
+				"selectedIconPath": "static/icons/programmer_fill.png"
+			},
+			{
+				"text": "消息",
+				"pagePath": "pages/chat/index",
+				"iconPath": "static/icons/message.png",
+				"selectedIconPath": "static/icons/message-fill.png"
+			},
+			{
+				"text": "我的",
+				"pagePath": "pages/user/index",
+				"iconPath": "static/icons/my.png",
+				"selectedIconPath": "static/icons/my-fill.png"
+			}
+		]
+	},
+	"uniIdRouter": {}
+}
